@@ -1,0 +1,87 @@
+/* Загальні налаштування */
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+
+/* CONTEINER */
+
+.container {
+  max-width: 320px;
+  width: 100%;
+  margin: 0 auto;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-top: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    width: 100%;
+    margin: 0 auto;
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-top: 64px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding-right: 64px;
+    padding-left: 64px;
+    padding-top: 64px;
+
+  }
+}
+
+
+
+/* SECTION advantages */
+
+
+/* SECTION advantages TAB */
+
+@media screen and (min-width: 768px) {}
+
+/* SECTION advantages DESK */
+
+@media screen and (min-width: 1158px) {}
