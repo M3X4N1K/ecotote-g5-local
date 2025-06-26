@@ -1,6 +1,6 @@
 /* Загальні налаштування */
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Fira Sans", "Comfortaa" sans-serif;
   color: #434455;
   background-color: #ffffff;
   margin: 0 auto;
@@ -76,7 +76,55 @@ button {
 
 
 /* SECTION advantages */
+.subtitle-advantages {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  /* line-height: 24px; */
+  line-height: 150%;
+  color: #030a06;
 
+  padding-bottom: 12px;
+}
+
+.title-advantages {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  /* line-height: 43px; */
+  line-height: 120%;
+  letter-spacing: 0.01em;
+  color: #030a06;
+
+  padding-bottom: 20px;
+}
+
+.advantages-text {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  /* line-height: 26px; */
+  line-height: 160%;
+  color: #030a06;
+
+}
+
+.section-title {
+  margin-bottom: 48px;
+}
+
+.benefit-item {
+  display: block;
+  padding-bottom: 48px;
+}
+
+.benefit-item-container {
+  margin-top: 8px;
+}
+
+.subtitle-benefit-item {
+  padding-bottom: 4px;
+}
 
 /* SECTION advantages TAB */
 
