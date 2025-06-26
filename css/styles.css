@@ -45,12 +45,10 @@ button {
 .container-advantages {
   background: #ebf8ed;
   margin: 0;
+  padding: 32px 16px;
 }
 
-.section-title {
-  padding-right: 16px;
-  padding-left: 16px;
-}
+
 
 .subtitle-advantages {
   font-family: "Fira Sans", sans-serif;
@@ -93,8 +91,8 @@ button {
 
   width: 100%;
   max-width: 288px;
-  padding-right: 16px;
-  padding-left: 16px;
+
+
   padding-top: 48px;
 }
 
@@ -123,10 +121,30 @@ button {
 @media screen and (min-width: 768px) {
   .container-advantages {
     max-width: 1157px;
-    width: 100%;
-
     padding: 64px 32px;
   }
+
+  .title-advantages-text {
+    font-size: 18px;
+  }
+
+
+  .benefits-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 24px;
+    max-width: 680px;
+  }
+
+  .benefit-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .benefit-item-tab {
+    width: 704px;
+  }
+
 }
 
 /* SECTION advantages DESK */
@@ -138,4 +156,38 @@ button {
 
     padding: 64px;
   }
+
+  .title-advantages {
+
+    font-size: 48px;
+  }
+
+  .subtitle-benefit-item {
+
+    font-size: 32px;
+  }
+
+  .subtitle-advantages {
+    padding-bottom: 16px;
+  }
+
+
+  .benefits-list {
+
+    max-width: 1314px;
+    padding-top: 80px;
+  }
+
+  .benefit-item {
+    width: calc((100% - 48px) / 3);
+  }
+
+  .section-title {
+    width: 768px;
+  }
+
+  .title-advantages {
+    padding-bottom: 24px;
+  }
+
 }
